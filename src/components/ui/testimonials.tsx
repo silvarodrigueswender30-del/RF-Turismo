@@ -202,7 +202,7 @@ const defaultTestimonials: Testimonial[] = [
     name: "Lancha Triton 26",
     role: "250 HP · Até 11 passageiros",
     // TODO: substituir por foto real da embarcação (Triton 26)
-    imageSrc: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&q=80&w=600&h=800",
+    imageSrc: "/images/frota/Lancha Triton 26.avif",
   },
   {
     id: 2,
@@ -210,7 +210,7 @@ const defaultTestimonials: Testimonial[] = [
     name: "Lancha Ventura 24",
     role: "200 HP · Até 13 passageiros",
     // TODO: substituir por foto real da embarcação (Ventura 24)
-    imageSrc: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&q=80&w=600&h=800",
+    imageSrc: "/images/frota/Lancha Ventura 24.avif",
   },
   {
     id: 3,
@@ -218,7 +218,7 @@ const defaultTestimonials: Testimonial[] = [
     name: "Lancha Ventura 20",
     role: "115 HP · Até 8 passageiros",
     // TODO: substituir por foto real da embarcação (Ventura 20) — imagem atual é temporária
-    imageSrc: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=600&h=800",
+    imageSrc: "/images/frota/Lancha Ventura 20.avif",
   },
 ];
 
