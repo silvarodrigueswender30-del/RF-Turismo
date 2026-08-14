@@ -39,20 +39,13 @@
 
 body {
   /*
-   * Gradiente de fundo global RF Turismo
-   * Tokens usados: #FFFFFF (white) → #E4F6FA (turquoise-100) → #FFFFFF (white)
-   * repeating-linear-gradient cria um ciclo suave a cada ~1600px de scroll,
-   * visível apenas nas seções sem bg próprio (ex: ArchGallery, AnimatedTestimonials).
-   * background-attachment: scroll (não fixed) — escolhido para evitar jank
-   * de performance no iOS Safari Mobile (Passo 5 do briefing).
+   * Fundo sólido neutro — o gradiente de marca RF Turismo vive no
+   * wrapper <div id="gradient-wrapper"> em app/page.tsx, que envolve
+   * todas as seções de StatsCardSection até AnimatedTestimonials.
+   * Manter branco aqui garante que Hero, LogoMarquee e Footer
+   * (que ficam fora do wrapper) permaneçam com fundos próprios intocados.
    */
-  background: repeating-linear-gradient(
-    180deg,
-    #FFFFFF 0px,
-    #C5EAF5 900px,
-    #FFFFFF 1800px
-  );
-  background-attachment: scroll;
+  background: #FFFFFF;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

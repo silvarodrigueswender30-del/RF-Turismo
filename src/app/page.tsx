@@ -34,27 +34,51 @@ export default function Home() {
           <LogoMarquee />
         </div>
       </section>
-      <StatsCardSection />
-      <Stats />
-      <TestimonialSectionDemo />
-      <GallerySlider />
-      <FeatureSection />
-      <FeatureGrid />
-      <ServicesSection />
-      <PricingSection />
-      
-      <section className="w-full py-12 sm:py-16 flex flex-col items-center overflow-hidden">
-        <h2 className="font-heading font-light tracking-[-0.025em] text-3xl sm:text-4xl text-[#0B2530] text-center mb-2 px-6">
-          Visão Geral da Nossa Frota e Destinos
-        </h2>
-        <p className="text-[#4B6570] text-center font-sans max-w-xl px-6 mb-4 text-base sm:text-lg">
-          Navegue por nossa galeria em arco e sinta o gostinho da experiência que te aguarda a bordo das lanchas mais <span className="text-[#2FB8D9]">premium</span> do litoral.
-        </p>
-        <ArchGallery />
-      </section>
+      {/*
+       * ═══ GRADIENT WRAPPER ════════════════════════════════════════════
+       * Envolve TODAS as seções entre StatsCardSection e AnimatedTestimonials.
+       * Gradiente em % (não px) → estica para cobrir a altura real do wrapper,
+       * eliminando o desalinhamento estrutural do repeating-gradient em pixels.
+       * Hero, LogoMarquee e Footer ficam FORA deste wrapper.
+       * ════════════════════════════════════════════════════════════════ */}
+      <div
+        id="gradient-wrapper"
+        style={{
+          background: `linear-gradient(180deg,
+            #FFFFFF  0%,
+            #E4F6FA 15%,
+            #FFFFFF 28%,
+            #E4F6FA 42%,
+            #FFFFFF 55%,
+            #E4F6FA 70%,
+            #FFFFFF 83%,
+            #E4F6FA 92%,
+            #FFFFFF 100%
+          )`,
+        }}
+      >
+        <StatsCardSection />
+        <Stats />
+        <TestimonialSectionDemo />
+        <GallerySlider />
+        <FeatureSection />
+        <FeatureGrid />
+        <ServicesSection />
+        <PricingSection />
 
-      <FaqSection />
-      <AnimatedTestimonialsBasic />
+        <section className="w-full py-12 sm:py-16 flex flex-col items-center overflow-hidden">
+          <h2 className="font-heading font-light tracking-[-0.025em] text-3xl sm:text-4xl text-[#0B2530] text-center mb-2 px-6">
+            Visão Geral da Nossa Frota e Destinos
+          </h2>
+          <p className="text-[#4B6570] text-center font-sans max-w-xl px-6 mb-4 text-base sm:text-lg">
+            Navegue por nossa galeria em arco e sinta o gostinho da experiência que te aguarda a bordo das lanchas mais <span className="text-[#2FB8D9]">premium</span> do litoral.
+          </p>
+          <ArchGallery />
+        </section>
+
+        <FaqSection />
+        <AnimatedTestimonialsBasic />
+      </div>
       <FooterSection />
     </div>
   );
