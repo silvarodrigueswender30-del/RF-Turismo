@@ -54,14 +54,14 @@ export function IslandsSection() {
           </p>
         </div>
 
-        <div className="relative w-full pb-8">
+        <div className="relative w-full pb-12">
           <div className="pointer-events-none absolute top-0 left-0 z-10 h-full w-32 bg-gradient-to-r from-[#FFFFFF] to-transparent" />
           <div className="pointer-events-none absolute top-0 right-0 z-10 h-full w-32 bg-gradient-to-l from-[#FFFFFF] to-transparent" />
 
-          <Marquee className="[--gap:1.5rem]" pauseOnHover duration={70}>
+          <Marquee className="[--gap:1.5rem] py-4" pauseOnHover duration={70}>
             {ilhas.map((ilha, index) => (
               <div
-                className="group flex w-64 shrink-0 flex-col"
+                className="group flex w-64 shrink-0 flex-col pb-2"
                 key={index}
               >
                 <div className="relative h-96 w-full overflow-hidden rounded-2xl bg-white shadow-sm border border-[#E4F6FA]">
