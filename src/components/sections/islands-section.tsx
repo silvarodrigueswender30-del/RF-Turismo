@@ -8,36 +8,42 @@ const ilhas = [
     nome: "Ilha das Couves",
     descricao: "Águas cristalinas e trilhas curtas fazem da Ilha das Couves a parada mais fotografada do passeio de lancha em Ubatuba.",
     alt: "Ilha das Couves vista do mar durante passeio de lancha Ubatuba",
+    image: "/images/galeria/ilhas/ilha-das-couves.webp",
   },
   {
     slug: "ilha-dos-porcos",
     nome: "Ilha dos Porcos",
     descricao: "Ideal para mergulho livre, a Ilha dos Porcos é famosa pela vida marinha visível já na superfície.",
     alt: "Mergulho livre na Ilha dos Porcos Ubatuba",
+    image: "/images/galeria/ilhas/ilha-dos-porcos.avif",
   },
   {
     slug: "ilha-do-prumirim",
     nome: "Ilha do Prumirim",
     descricao: "Praia tranquila e protegida, perfeita para quem viaja com crianças pequenas.",
     alt: "Praia da Ilha do Prumirim Ubatuba SP",
+    image: "/images/galeria/ilhas/ilha-do-prumirim.webp",
   },
   {
     slug: "ilha-rachada-rapada",
     nome: "Ilha Rachada e Rapada",
     descricao: "Formações rochosas ideais para fotos e contemplação da natureza intocada.",
     alt: "Ilha Rachada e Rapada Ubatuba",
+    image: "/images/galeria/ilhas/ilha-rachada-rapada.avif",
   },
   {
     slug: "ilha-das-couves",
     nome: "Ilha das Couves",
     descricao: "Águas cristalinas e trilhas curtas fazem da Ilha das Couves a parada mais fotografada do passeio de lancha em Ubatuba.",
     alt: "Ilha das Couves vista do mar durante passeio de lancha Ubatuba",
+    image: "/images/galeria/ilhas/ilha-das-couves.webp",
   },
   {
     slug: "ilha-dos-porcos",
     nome: "Ilha dos Porcos",
     descricao: "Ideal para mergulho livre, a Ilha dos Porcos é famosa pela vida marinha visível já na superfície.",
     alt: "Mergulho livre na Ilha dos Porcos Ubatuba",
+    image: "/images/galeria/ilhas/ilha-dos-porcos.avif",
   },
 ];
 
@@ -67,7 +73,7 @@ export function IslandsSection() {
                 <div className="relative h-96 w-full overflow-hidden rounded-2xl bg-white shadow-sm border border-[#E4F6FA]">
                   <picture className="w-full h-full block">
                     <img
-                      src={`/images/galeria/ilhas/${ilha.slug}.webp`}
+                      src={ilha.image}
                       alt={ilha.alt}
                       className="h-full w-full object-cover md:grayscale-[0.6] transition-all duration-300 md:group-hover:grayscale-0"
                       loading="lazy"
