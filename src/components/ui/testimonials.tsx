@@ -91,8 +91,16 @@ export const TestimonialSection = ({
   }, [handleObserver]);
 
   return (
-    <section className="w-full py-16 sm:py-24">
-      <div className="container mx-auto max-w-6xl px-4">
+    <section className="w-full py-16 sm:py-24 relative">
+      {/* Gradiente na parte inferior para transicionar suavemente (branco -> transparente subindo), 
+          unindo com a máscara superior branca da seção de Galeria logo abaixo */}
+      <div 
+        className="absolute bottom-0 left-0 right-0 h-32 md:h-48 pointer-events-none z-0"
+        style={{
+          background: 'linear-gradient(to top, #FFFFFF 0%, transparent 100%)'
+        }}
+      />
+      <div className="container mx-auto max-w-6xl px-4 relative z-10">
         {/* Section Header — alinhado à esquerda, consistente com padrão das demais seções */}
         <div className="text-left max-w-2xl mb-12">
           <h2 className="font-heading font-light tracking-[-0.025em] text-3xl md:text-5xl text-slate-900 drop-shadow-sm">
