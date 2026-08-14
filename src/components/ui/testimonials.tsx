@@ -145,8 +145,25 @@ export const TestimonialSection = ({
                   alt={testimonial.name}
                   className="h-full w-full object-cover opacity-85 transition-transform duration-500 group-hover:scale-105"
                 />
-                {/* Gradient overlay — usando token deep-teal-900 (#063A45) em vez de slate genérico */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#063A45] via-[#063A45]/50 to-transparent" />
+                
+                {/* Wash sutil para unificar a temperatura de cor sem esconder o barco */}
+                <div className="absolute inset-0 bg-[#063A45]/10 mix-blend-multiply pointer-events-none" />
+
+                {/* Scrim (véu) não-linear: concentra escurecimento no terço inferior, preservando o barco no topo */}
+                <div 
+                  className="absolute inset-0 rounded-2xl pointer-events-none transition-opacity duration-500 group-hover:opacity-80"
+                  style={{
+                    backgroundImage: `linear-gradient(
+                      to top,
+                      #0B2530 0%,
+                      rgba(11, 37, 48, 0.88) 12%,
+                      rgba(11, 37, 48, 0.55) 26%,
+                      rgba(11, 37, 48, 0.22) 42%,
+                      rgba(11, 37, 48, 0.05) 58%,
+                      transparent 72%
+                    )`
+                  }}
+                />
               </div>
 
               {/* Content within the card */}
