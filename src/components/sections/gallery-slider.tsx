@@ -87,11 +87,11 @@ function ImageFallback() {
 
 export function GallerySlider() {
   return (
-    <section className="w-full pt-4 pb-16 md:pt-6 md:pb-24 bg-white overflow-hidden">
+    <section className="w-full pt-4 pb-16 md:pt-6 md:pb-24 overflow-hidden">
       <div className="w-full relative">
-        {/* Fade lateral — mascara as bordas do slider para transição suave */}
-        <div className="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+        {/* Fade lateral — mascara bordas do slider; usa rgba branco para funcionar sobre qualquer fundo claro */}
+        <div className="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-white/80 to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-white/80 to-transparent z-10 pointer-events-none" />
 
         <InfiniteSlider duration={35} durationOnHover={150} gap={24} className="py-4">
           {galleryItems.map((item) => (

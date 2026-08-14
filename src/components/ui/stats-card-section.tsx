@@ -5,7 +5,7 @@ import { CountingNumber } from "@/components/ui/counting-number";
 
 export default function StatsCardSection() {
   return (
-    <section className="bg-white py-12 md:py-16">
+    <section className="py-12 md:py-16">
       <div className="mx-auto w-full max-w-5xl px-4 sm:px-6">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4 md:divide-x md:divide-[#2FB8D9]/20">
 

@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export function FeatureSection() {
   return (
-    <section className="w-full bg-white py-16 overflow-hidden">
+    <section className="w-full py-16 overflow-hidden">
       <div className="relative mx-auto max-w-7xl px-6">
 
         {/* Glow decorativo — corrigido: indigo → token turquoise da marca */}

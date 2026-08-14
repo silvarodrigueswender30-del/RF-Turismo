@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 
 export function Stats() {
   return (
-    <div className="w-full pt-20 pb-4 lg:pt-32 lg:pb-6 bg-white">
+    <div className="w-full pt-20 pb-4 lg:pt-32 lg:pb-6">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Coluna esquerda — inalterada */}

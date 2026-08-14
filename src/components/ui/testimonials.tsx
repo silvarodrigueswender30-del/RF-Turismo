@@ -91,7 +91,7 @@ export const TestimonialSection = ({
   }, [handleObserver]);
 
   return (
-    <section className="w-full bg-white py-16 sm:py-24">
+    <section className="w-full py-16 sm:py-24">
       <div className="container mx-auto max-w-6xl px-4">
         {/* Section Header — alinhado à esquerda, consistente com padrão das demais seções */}
         <div className="text-left max-w-2xl mb-12">

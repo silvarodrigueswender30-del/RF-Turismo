@@ -55,7 +55,7 @@ const FeatureGrid: React.FC<FeatureGridProps> = ({
 
   return (
     <section
-      className={cn("py-16 sm:py-24 bg-white text-[#0B2530]", className)}
+      className={cn("py-16 sm:py-24 text-[#0B2530]", className)}
       role="region"
       aria-label={sectionTitle ? `Diferenciais: ${sectionTitle}` : "Diferenciais do Serviço"}
     >

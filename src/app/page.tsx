@@ -43,7 +43,7 @@ export default function Home() {
       <ServicesSection />
       <PricingSection />
       
-      <section className="w-full py-12 sm:py-16 bg-white flex flex-col items-center overflow-hidden">
+      <section className="w-full py-12 sm:py-16 flex flex-col items-center overflow-hidden">
         <h2 className="font-heading font-light tracking-[-0.025em] text-3xl sm:text-4xl text-[#0B2530] text-center mb-2 px-6">
           Visão Geral da Nossa Frota e Destinos
         </h2>

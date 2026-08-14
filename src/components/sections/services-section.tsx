@@ -421,7 +421,7 @@ const services: Service[] = [
 // The Demo component is now the section component
 export function ServicesSection() {
   return (
-    <section id="servicos" className="relative w-full bg-white pt-6 pb-16 md:pt-8 md:pb-24 scroll-mt-24">
+    <section id="servicos" className="relative w-full pt-6 pb-16 md:pt-8 md:pb-24 scroll-mt-24">
       {/* Background Layer: Ocean Divider sitting at the bottom of this section */}
       <div className="absolute left-0 right-0 bottom-0 z-0">
         <SectionDivider />

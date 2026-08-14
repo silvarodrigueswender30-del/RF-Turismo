@@ -49,8 +49,8 @@ body {
   background: repeating-linear-gradient(
     180deg,
     #FFFFFF 0px,
-    #E4F6FA 800px,
-    #FFFFFF 1600px
+    #C5EAF5 900px,
+    #FFFFFF 1800px
   );
   background-attachment: scroll;
   color: var(--foreground);
