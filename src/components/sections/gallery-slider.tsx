@@ -92,11 +92,12 @@ export function GallerySlider() {
 
       {/* Máscara superior: funde a imagem saindo do branco/bg da página */}
       <div 
-        className="absolute top-0 left-0 right-0 h-[18%] z-10 pointer-events-none"
+        className="absolute top-0 left-0 right-0 h-[40%] z-10 pointer-events-none"
         style={{
           backgroundImage: `linear-gradient(to bottom, 
             #FFFFFF 0%, 
-            rgba(255,255,255,0.6) 40%, 
+            #FFFFFF 20%,
+            rgba(255,255,255,0.8) 45%, 
             transparent 100%)`
         }}
       />
