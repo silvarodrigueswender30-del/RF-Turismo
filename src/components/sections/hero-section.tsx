@@ -181,7 +181,7 @@ function MarqueeCard({ card }: { card: { title: string, imageUrl: string, alt: s
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent pointer-events-none" />
             {/* Label do card */}
             <div className="absolute bottom-4 left-4 right-4 text-white pointer-events-none">
-                <p className="font-bold text-sm sm:text-lg md:text-xl leading-tight drop-shadow-md group-hover:scale-105 transition-transform">
+                <p className="font-heading font-light tracking-[-0.025em] text-sm sm:text-lg md:text-xl leading-tight drop-shadow-md group-hover:scale-105 transition-transform">
                     {card.title}
                 </p>
             </div>
