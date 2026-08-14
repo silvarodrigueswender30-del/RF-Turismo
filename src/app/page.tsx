@@ -1,6 +1,7 @@
 import { HeroSection } from "@/components/sections/hero-section";
 import { LogoMarquee } from "@/components/sections/logo-marquee";
 import { FeatureSection } from "@/components/sections/feature-section";
+import { IslandsSection } from "@/components/sections/islands-section";
 import { Stats } from "@/components/ui/stats-section-with-text";
 import { GallerySlider } from "@/components/sections/gallery-slider";
 import { ServicesSection } from "@/components/sections/services-section";
@@ -61,6 +62,7 @@ export default function Home() {
         <Stats />
         <TestimonialSectionDemo />
         <GallerySlider />
+        <IslandsSection />
         <FeatureSection />
         <FeatureGrid />
         <ServicesSection />
