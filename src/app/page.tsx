@@ -8,7 +8,7 @@ import { TestimonialSectionDemo } from "@/components/ui/testimonials";
 import { FaqSection } from "@/components/sections/faq-section";
 import { FooterSection } from "@/components/sections/footer-section";
 import { FeatureGrid } from "@/components/ui/feature-grid-enterprise-grade";
-import { ArchGallery } from "@/components/ui/arch-gallery";
+import { ClientGallerySection } from "@/components/sections/client-gallery-section";
 import { StatsCardSection } from "@/components/ui/stats-card-section";
 import { PricingSection } from "@/components/sections/pricing-section";
 import { AnimatedTestimonialsBasic } from "@/components/ui/animated-testimonials";
@@ -66,15 +66,7 @@ export default function Home() {
         <ServicesSection />
         <PricingSection />
 
-        <section className="w-full py-12 sm:py-16 flex flex-col items-center overflow-hidden">
-          <h2 className="font-heading font-light tracking-[-0.025em] text-3xl sm:text-4xl text-[#0B2530] text-center mb-2 px-6">
-            Visão Geral da Nossa Frota e Destinos
-          </h2>
-          <p className="text-[#4B6570] text-center font-sans max-w-xl px-6 mb-4 text-base sm:text-lg">
-            Navegue por nossa galeria em arco e sinta o gostinho da experiência que te aguarda a bordo das lanchas mais <span className="text-[#2FB8D9]">premium</span> do litoral.
-          </p>
-          <ArchGallery />
-        </section>
+        <ClientGallerySection />
 
         <FaqSection />
         <AnimatedTestimonialsBasic />
