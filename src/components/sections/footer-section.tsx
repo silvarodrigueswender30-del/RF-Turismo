@@ -57,14 +57,14 @@ export function FooterSection() {
         }}
       >
         <Image
-          src="/images/footer/nativo-turismo-footer-bg.avif"
+          src="/images/hero-2.avif"
           alt="Vista panorâmica do mar - RF Turismo"
           fill
           className="object-cover object-center hidden md:block"
           quality={80}
         />
         <Image
-          src="/images/footer/nativo-turismo-footer-bg-mobile.avif"
+          src="/images/hero-2.avif"
           alt="Vista panorâmica do mar - RF Turismo"
           fill
           className="object-cover object-center block md:hidden"
