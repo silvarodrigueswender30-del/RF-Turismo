@@ -19,50 +19,50 @@ const galleryItems: GalleryItem[] = [
   {
     id: 1,
     imageUrl: "/images/galeria/ilhas/island-1.avif",
-    title: "Ilha das Cabras",
-    location: "Ilhabela, SP",
+    title: "Lancha Privativa",
+    location: "Ubatuba, SP",
   },
   {
     id: 2,
     imageUrl: "/images/galeria/ilhas/island-2.avif",
-    title: "Passeio Premium",
-    location: "São Sebastião, SP",
+    title: "Passeio em Família",
+    location: "Ubatuba, SP",
   },
   {
     id: 3,
     imageUrl: "/images/galeria/ilhas/island-3.avif",
-    title: "Praia de Castelhanos",
-    location: "Ilhabela, SP",
+    title: "Águas Cristalinas",
+    location: "Ubatuba, SP",
   },
   {
     id: 4,
     imageUrl: "/images/galeria/ilhas/island-4.avif",
-    title: "Saco do Sombrio",
-    location: "Ilhabela, SP",
+    title: "Mergulho Livre",
+    location: "Ubatuba, SP",
   },
   {
     id: 5,
     imageUrl: "/images/galeria/ilhas/island-5.avif",
-    title: "Praia do Bonete",
-    location: "Ilhabela, SP",
+    title: "Roteiro Exclusivo",
+    location: "Ubatuba, SP",
   },
   {
     id: 6,
     imageUrl: "/images/galeria/ilhas/island-6.avif",
-    title: "Mergulho na Fome",
-    location: "Ilhabela, SP",
+    title: "Visual Paradisíaco",
+    location: "Ubatuba, SP",
   },
   {
     id: 7,
     imageUrl: "/images/galeria/ilhas/island-7.avif",
-    title: "Pôr do Sol no Canal",
-    location: "São Sebastião, SP",
+    title: "Pôr do Sol no Mar",
+    location: "Ubatuba, SP",
   },
   {
     id: 8,
     imageUrl: "/images/galeria/ilhas/island-8.avif",
-    title: "As Ilhas",
-    location: "São Sebastião, SP",
+    title: "Experiência Náutica",
+    location: "Ubatuba, SP",
   },
 ];
 
@@ -84,7 +84,7 @@ export function GallerySlider() {
       {/* Imagem de fundo full-bleed */}
       <div className="absolute inset-0">
         <img 
-          src="/images/galeria/sessao-4.webp" 
+          src="/images/galeria/002.avif" 
           alt="Lancha em Ubatuba" 
           className="w-full h-full object-cover" 
         />
