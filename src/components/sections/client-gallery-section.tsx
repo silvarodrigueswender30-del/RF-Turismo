@@ -16,14 +16,15 @@ import {
 
 // Imagens copiadas do Nativo Turismo (momentos reais de clientes)
 const baseImages = [
-  { src: "/images/galeria/passeio-1.webp", alt: "Família aproveitando o passeio de lancha em Ubatuba" },
-  { src: "/images/galeria/passeio-2.webp", alt: "Casal sorrindo durante roteiro náutico em Ubatuba" },
-  { src: "/images/galeria/passeio-3.webp", alt: "Mergulho livre nas águas cristalinas de Ubatuba" },
-  { src: "/images/galeria/sessao-4.webp",  alt: "Grupo de amigos na lancha privativa RF Turismo" },
-  { src: "/images/galeria/ilhas/ilha-do-prumirim.webp",   alt: "Clientes relaxando na areia da Ilha do Prumirim" },
-  { src: "/images/galeria/ilhas/ilha-das-couves.webp",    alt: "Turistas explorando a Ilha das Couves em Ubatuba" },
-  { src: "/images/galeria/ilhas/ilha-dos-porcos.webp",    alt: "Vista panorâmica das Ilhas dos Porcos no passeio" },
-  { src: "/images/galeria/ilhas/ilha-rachada-rapada.webp",alt: "Pôr do sol durante passeio de lancha em Ubatuba" },
+  { src: "/images/galeria/clientes/cliente-1.avif", alt: "Família aproveitando o passeio de lancha em Ubatuba" },
+  { src: "/images/galeria/clientes/cliente-2.avif", alt: "Casal sorrindo durante roteiro náutico em Ubatuba" },
+  { src: "/images/galeria/clientes/cliente-3.avif", alt: "Mergulho livre nas águas cristalinas de Ubatuba" },
+  { src: "/images/galeria/clientes/cliente-4.avif", alt: "Grupo de amigos na lancha privativa RF Turismo" },
+  { src: "/images/galeria/clientes/cliente-5.avif", alt: "Clientes relaxando na areia da praia" },
+  { src: "/images/galeria/clientes/cliente-6.avif", alt: "Turistas explorando as ilhas em Ubatuba" },
+  { src: "/images/galeria/clientes/cliente-7.avif", alt: "Vista panorâmica durante o passeio" },
+  { src: "/images/galeria/clientes/cliente-8.avif", alt: "Momentos especiais no mar de Ubatuba" },
+  { src: "/images/galeria/clientes/cliente-9.avif", alt: "Pôr do sol durante passeio de lancha em Ubatuba" },
 ]
 
 // Array triplicado para garantir buffer de clonagem do loop em qualquer resolução
