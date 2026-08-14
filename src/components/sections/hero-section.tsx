@@ -7,11 +7,11 @@ import { cn } from '@/lib/utils'
 import { Marquee } from '@/components/ui/marquee'
 
 const carouselCards = [
-    { title: "Passeio de Lancha",     imageUrl: "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&w=600&h=400&q=80", alt: "Lancha moderna navegando em águas cristalinas em Ubatuba" },
-    { title: "Litoral Norte SP",      imageUrl: "https://images.unsplash.com/photo-1540946485063-a40da27545f8?auto=format&fit=crop&w=600&h=400&q=80", alt: "Enseada tropical com lanchas ancoradas em Ubatuba" },
-    { title: "Ilha Anchieta",         imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&h=400&q=80", alt: "Praia paradisíaca no pôr do sol em Ubatuba" },
-    { title: "Pôr do Sol no Mar",     imageUrl: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&h=400&q=80", alt: "Passageiros mergulhando ao redor da lancha em Ubatuba" },
-    { title: "Passeio Família",       imageUrl: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=600&h=400&q=80", alt: "Passeio premium exclusivo para casais e famílias em Ubatuba" },
+    { title: "Passeio de Lancha",     imageUrl: "/images/hero-carousel/slide-1.avif", alt: "Lancha moderna navegando em águas cristalinas em Ubatuba" },
+    { title: "Litoral Norte SP",      imageUrl: "/images/hero-carousel/slide-2.avif", alt: "Enseada tropical com lanchas ancoradas em Ubatuba" },
+    { title: "Ilha Anchieta",         imageUrl: "/images/hero-carousel/slide-3.avif", alt: "Praia paradisíaca no pôr do sol em Ubatuba" },
+    { title: "Pôr do Sol no Mar",     imageUrl: "/images/hero-carousel/slide-4.avif", alt: "Passageiros mergulhando ao redor da lancha em Ubatuba" },
+    { title: "Passeio Família",       imageUrl: "/images/hero-carousel/slide-5.avif", alt: "Passeio premium exclusivo para casais e famílias em Ubatuba" },
 ]
 
 const menuItems = [
