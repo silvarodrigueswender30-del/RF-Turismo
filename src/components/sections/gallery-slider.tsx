@@ -80,7 +80,7 @@ export function GallerySlider() {
   };
 
   return (
-    <section className="relative w-full overflow-hidden pt-4 pb-20 md:pt-6 md:pb-28">
+    <section className="relative w-full overflow-hidden pt-8 pb-24 md:pt-12 md:pb-32">
       {/* Imagem de fundo full-bleed */}
       <div className="absolute inset-0">
         <img 
@@ -106,8 +106,8 @@ export function GallerySlider() {
         className="absolute bottom-0 left-0 right-0 h-[22%] z-10 pointer-events-none"
         style={{
           backgroundImage: `linear-gradient(to top, 
-            #0B2530 0%, 
-            rgba(11,37,48,0.65) 45%, 
+            #FFFFFF 0%, 
+            rgba(255,255,255,0.6) 45%, 
             transparent 100%)`
         }}
       />
@@ -121,7 +121,7 @@ export function GallerySlider() {
           {galleryItems.map((item) => (
             <div
               key={item.id}
-              className="group relative w-[280px] md:w-[360px] aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 bg-[#063A45] border border-slate-100/20 cursor-pointer"
+              className="group relative w-[320px] md:w-[400px] aspect-[4/3] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 bg-transparent cursor-pointer"
             >
               <img
                 src={item.imageUrl}
@@ -135,7 +135,7 @@ export function GallerySlider() {
                 }}
               />
 
-              <div className="absolute inset-0 hidden flex-col items-center justify-center bg-[#063A45] gap-2">
+              <div className="absolute inset-0 hidden flex-col items-center justify-center bg-transparent gap-2">
                 <ImageOff className="w-8 h-8 text-[#2FB8D9]/50" aria-hidden="true" />
                 <span className="text-[#2FB8D9]/50 text-xs font-sans">Imagem indisponível</span>
               </div>
