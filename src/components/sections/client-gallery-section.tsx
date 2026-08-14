@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import React from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
@@ -86,10 +86,17 @@ export function ClientGallerySection() {
   `
 
   return (
-    <section className="w-full pt-8 pb-8 md:pt-12 md:pb-12 overflow-hidden">
+    <section className="w-full pt-8 pb-8 md:pt-12 md:pb-12 overflow-hidden relative">
+      {/* Gradiente superior para transição suave (branco -> transparente descendo) */}
+      <div 
+        className="absolute top-0 left-0 right-0 h-32 md:h-48 pointer-events-none z-0"
+        style={{
+          background: 'linear-gradient(to bottom, #FFFFFF 0%, transparent 100%)'
+        }}
+      />
       <style>{css}</style>
 
-      <div className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 mb-8 md:mb-12">
+      <div className="w-full max-w-7xl mx-auto px-6 md:px-12 lg:px-16 mb-8 md:mb-12 relative z-10">
         <h2 className="font-heading font-light tracking-[-0.025em] text-3xl sm:text-4xl md:text-5xl text-[#0B2530] text-center leading-[1.1] mb-4">
           Momentos que Nossos Clientes Viveram no Mar
         </h2>
