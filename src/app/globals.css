@@ -34,15 +34,25 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Dark mode desabilitado intencionalmente — o site RF Turismo usa
+   paleta de marca clara (branco + turquoise) e não suporta tema escuro. */
 
 body {
-  background: var(--background);
+  /*
+   * Gradiente de fundo global RF Turismo
+   * Tokens usados: #FFFFFF (white) → #E4F6FA (turquoise-100) → #FFFFFF (white)
+   * repeating-linear-gradient cria um ciclo suave a cada ~1600px de scroll,
+   * visível apenas nas seções sem bg próprio (ex: ArchGallery, AnimatedTestimonials).
+   * background-attachment: scroll (não fixed) — escolhido para evitar jank
+   * de performance no iOS Safari Mobile (Passo 5 do briefing).
+   */
+  background: repeating-linear-gradient(
+    180deg,
+    #FFFFFF 0px,
+    #E4F6FA 800px,
+    #FFFFFF 1600px
+  );
+  background-attachment: scroll;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
