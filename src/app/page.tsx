@@ -62,9 +62,9 @@ export default function Home() {
         <Stats />
         <TestimonialSectionDemo />
         <GallerySlider />
-        <IslandsSection />
         <FeatureSection />
         <FeatureGrid />
+        <IslandsSection />
         <ServicesSection />
         <PricingSection />
 
