@@ -67,7 +67,7 @@ export function IslandsSection() {
                 <div className="relative h-96 w-full overflow-hidden rounded-2xl bg-white shadow-sm border border-[#E4F6FA]">
                   <picture className="w-full h-full block">
                     <img
-                      src={`/images/galeria/ilhas/${ilha.slug}.webp`}
+                      src={`/images/galeria/ilhas/island-${index + 1}.avif`}
                       alt={ilha.alt}
                       className="h-full w-full object-cover md:grayscale-[0.6] transition-all duration-300 md:group-hover:grayscale-0"
                       loading="lazy"
