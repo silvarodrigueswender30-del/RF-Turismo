@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rfturismoprojeto.vercel.app/sitemap.xml
